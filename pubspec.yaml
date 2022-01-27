@@ -1,0 +1,26 @@
+name: adjoe
+description: The official Flutter wrapper of the adjoe SDK.
+version: 1.5.1
+homepage: https://adjoe.io
+documentation: https://docs.adjoe.io
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.adjoe.sdk.flutter
+        pluginClass: AdjoePlugin
+
+publish_to: none
